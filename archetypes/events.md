@@ -1,8 +1,13 @@
 
 ---
 title: "{{ replace .Name "-" " " | title }}"
+address: "{{ replace .Name "-" " " | address }}"
+postalCode: "{{ replace .Name "-" " " | postalCode }}"
+city: "{{ replace .Name "-" " " | city }}"
+label: "{{ replace .Name "-" " " | label }}"
 date: {{ .Date }}
-description: ""
+description: "{{ replace .Name "-" " " | description }}"
+photo: "{{ replace .Name "-" " " | photo }}"
 ---
 
 **Insert Lead paragraph here.**
