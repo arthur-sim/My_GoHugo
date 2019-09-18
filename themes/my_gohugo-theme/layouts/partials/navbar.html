@@ -1,26 +1,43 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">Acceuil</a>
+<nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Acceuil</a>
 
-                <!-- Links -->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Associations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Associations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        <!--end links-->
 
-                  <!-- Dropdown -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                      Evenements
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#"></a>
-                      <a class="dropdown-item" href="#">Associations</a>
-                      <a class="dropdown-item" href="#">Contact</a>
-                    </div>
-                  </li> 
-                </ul>
-              </nav>
+        <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Evenements
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#">Associations</a>
+                    <a class="dropdown-item" href="#">Contact</a>
+                </div>
+            </li> 
+        <!--end dropdown-->
+        </ul>
+    </div>
+    
+    <!--search bar-->
+    <div class="w-25">
+        <input type="text" class="form-control rounded-0 bg-dark ser-input" id="ser-input" placeholder="Search...">
+        <div class="search-full-view">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search...">
+              <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+            <button class="btn btn-close" id="search-close"> <img src="http://d9hhrg4mnvzow.cloudfront.net/www2.iweb.com/windows-server-2016/ed5b870c-clear-close-cancel-white.png"></button>
+        </div>
+    </div>
+    <!--end search bar-->
+</nav>
+

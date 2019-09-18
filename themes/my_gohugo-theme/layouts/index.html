@@ -5,18 +5,138 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        
     </head>
     <body>
         <header>
             <div id="header_title_content"></div>
             {{ partial "navbar.html" .}}
         </header>
-        
-        <div>
-            
+
+        <!--membres mairie-->
+        <div id="members">
+            <div>
+                <img src="" alt="image maire" class="img-circle"/>
+                <h3>Bernard <strong>Destrot</strong></h3>
+                <h5>Maire</h5>
+            </div>
+            <div>
+                <img src="" alt="image maire" class="img-circle"/>
+                <h3>Bernard <strong>Destrot</strong></h3>
+                <h5>Maire</h5>
+            </div>
+            <div>
+                <img src="" alt="image maire" class="img-circle"/>
+                <h3>Bernard <strong>Destrot</strong></h3>
+                <h5>Maire</h5>
+            </div>
+            <div>
+                <img src="" alt="image maire" class="img-circle"/>
+                <h3>Bernard <strong>Destrot</strong></h3>
+                <h5>Maire</h5>
+            </div>
         </div>
+        <!--fin membres mairie-->
         
+        <!--Events raccourci-->
+        <!--Short Event block-->
+        <div id="EventsBlock">
+            <div id="shortEventsBlock">
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>    
+                </div>
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>    
+                </div>
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>    
+                </div>
+            </div>      
+            <div id="shortEventsBlock">
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>    
+                </div>
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>     
+                </div>
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>    
+                </div>
+            </div>
+            <div id="shortEventsBlock">
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>    
+                </div>
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>     
+                </div>
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>     
+                </div>
+            </div>
+            <div id="shortEventsBlock">
+                <div class="Events" style="background-color:red;">
+                    <div id="texteEvents">
+                        <a href=""><h2>Super events</h2></a>
+                        <h5>Le 10 décembre 2019</h5>
+                    </div>
+                </div>            
+            </div>
+        </div>
+        <!--fin events raccourci-->
+
         {{ partial "footer.html" .}}
         
     </body>
+
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("navbar");
+var member = document.getElementById("members");
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    member.classList.add("stickyMemberMod");
+  } else {
+    header.classList.remove("sticky");
+    member.classList.remove("stickyMemberMod");
+  }
+}
+</script>
+
 </html>
