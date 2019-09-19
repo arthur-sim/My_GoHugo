@@ -1,0 +1,16 @@
+#header_title_content{
+    width: 100%;
+    height: 70vh;
+    background-image: url("images/fond-cuges-contact.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    text-align: center; 
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
