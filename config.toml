@@ -1,4 +1,5 @@
-baseURL = "https://localhost:1313/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "My goHugo"
 theme = "../themes/my_gohugo-theme"
+themesDir = "./themes"
