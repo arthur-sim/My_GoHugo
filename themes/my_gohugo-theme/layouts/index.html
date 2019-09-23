@@ -3,16 +3,20 @@
     <head>
         <title>Mairie Cuges les Pins</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
         <link rel="stylesheet" href="css/index.css" />
         <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
                 
     </head>
     <body>
-        <header>
-            <div id="header_title_content"></div>
-            {{ partial "navbar.html" .}}
-        </header>
+        
+        {{ partial "header.html" .}}
+        {{ partial "navbar.html" .}}
         
         
         <!--membres mairie-->
@@ -44,24 +48,24 @@
         <!--Short Event block-->
         <div id="EventsBlock">
             <div id="shortEventsBlock">
-                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
+                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');" >
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>
                 <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>
                 <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>
@@ -70,44 +74,21 @@
                 <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>
                 <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>
                 <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
-                        </div>
-                    </button>    
-                </div>
-            </div>
-            <div id="shortEventsBlock">
-                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
-                    <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
-                        <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
-                        </div>
-                    </button>    
-                </div>
-                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
-                    <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
-                        <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
-                        </div>
-                    </button>    
-                </div>
-                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
-                    <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
-                        <div id="texteEvents">
-                            <a href=""><h2>Super events</h2></br><h5 id="h5">Le 10 décembre 2019</h5></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>
@@ -116,7 +97,30 @@
                 <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
                     <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
                         <div id="texteEvents">
-                            <a href="" ><h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6></a>                           
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
+                        </div>
+                    </button>    
+                </div>
+                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
+                    <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
+                        <div id="texteEvents">
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
+                        </div>
+                    </button>    
+                </div>
+                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
+                    <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
+                        <div id="texteEvents">
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
+                        </div>
+                    </button>    
+                </div>
+            </div>
+            <div id="shortEventsBlock">
+                <div class="Events" style="background: url('https://www.photos-alsace-lorraine.com/thumb/45121.jpg');">
+                    <button type="button" class="btn  btn-block" style="background-color: rgba(0,0,0,0.5); padding-top:0.5vh; padding-bottom: 0.3vh">
+                        <div id="texteEvents">
+                            <h2>Super events</h2></br><h6 id="h5">Le 10 décembre 2019</h6>                           
                         </div>
                     </button>    
                 </div>           
@@ -134,7 +138,6 @@ window.onscroll = function() {myFunction()};
 
 // Get the header
 var header = document.getElementById("navbar");
-var member = document.getElementById("members");
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
 
@@ -142,12 +145,13 @@ var sticky = header.offsetTop;
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
-    member.classList.add("stickyMemberMod");
   } else {
     header.classList.remove("sticky");
-    member.classList.remove("stickyMemberMod");
   }
 }
 </script>
 
+
 </html>
+
+
