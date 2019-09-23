@@ -1,14 +1,11 @@
 
 ---
 title: "{{ replace .Name "-" " " | title }}"
+address: ""
+postalCode: "13780"
+city: "Cuges les Pins"
+label: ""
 date: {{ .Date }}
 description: ""
+photo: ""
 ---
-
-**Insert Lead paragraph here.**
-
-## New Cool Posts
-
-{{ range first 10 ( where .Site.RegularPages "Type" "cool" ) }}
-* {{ .Title }}
-{{ end }}
